@@ -1,7 +1,12 @@
-html {
-    height: 100%;
-}
 body {
-    height: 100%;
-    background: repeating-linear-gradient(#FF7FC2, #7079FF);
+    margin: 0%;
 }
+
+.arquitectura {
+    background-image: url("https://bit.ly/2SVdaPs");
+    background-color: azure; 
+    height: 300px;
+    font-family: 'Aclonica';
+    font-size: 22px;
+}
+
