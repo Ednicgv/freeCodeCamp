@@ -1,12 +1,45 @@
 body {
-    margin: 0%;
+    font-family: 'Fugaz One', cursive;
 }
 
-.arquitectura {
-    background-image: url("https://bit.ly/2SVdaPs");
-    background-color: azure; 
-    height: 300px;
-    font-family: 'Aclonica';
-    font-size: 22px;
+#main {
+    background-color: white ;
+    height: 100%;
 }
 
+#title {
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 80px;
+    color: #732829;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#img-caption {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    color:#732829;
+    font-size: 28px;
+}
+
+#tribute-info {
+    font-size: 15px;
+    width: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    text-align: justify;
+}
