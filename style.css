@@ -11,7 +11,7 @@ body {
     font-family: 'Fugaz One', cursive;
     text-align: center;
     vertical-align: text-bottom;
-    font-size: 80px;
+    font-size: 70px;
     color: #732829;
 }
 
@@ -36,10 +36,10 @@ body {
 }
 
 #tribute-info {
-    font-size: 15px;
-    width: 300px;
+    font-size: 25px;
+    width: auto;
     border: 25px;
     padding: 25px;
     margin: 25px;
-    text-align: justify;
+    text-align:left;
 }
