@@ -11,7 +11,7 @@ body {
     font-family: 'Fugaz One', cursive;
     text-align: center;
     vertical-align: text-bottom;
-    font-size: 70px;
+    font-size: 80px;
     color: #732829;
 }
 
@@ -35,11 +35,17 @@ body {
     font-size: 28px;
 }
 
+#title-tribute-info {
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    font-size: 28px;
+}
+
 #tribute-info {
-    font-size: 25px;
+    font-size: 18px;
     width: auto;
     border: 25px;
     padding: 25px;
     margin: 25px;
-    text-align:left;
+    text-align: justify;
 }
