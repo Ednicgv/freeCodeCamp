@@ -1,0 +1,33 @@
+body {
+    font-family: 'Fugaz One', cursive;
+}
+
+#main {
+    background-color: rgb(255, 255, 255) ;
+    height: 100%;
+}
+
+#title {
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 80px;
+    color: #732829;
+}
+
+#header-img {
+    max-width: 100%;
+    height: 150px;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+#tribute-info {
+    font-size: 18px;
+    width: auto;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    text-align: justify;
+}
