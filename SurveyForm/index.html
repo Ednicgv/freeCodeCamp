@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Palanquin:700" rel="stylesheet"> 
+    </head>    
+    
+    <body>
+        <div id="main"> <!--main div-->
+            <h1 id="title">Survey Form</h1>            
+
+            <p id="description">
+                 Lorem ipsum 
+            </p>
+            
+            <form action="" id="survey-form">
+                <input type="text" placeholder="Enter your name" id="name-label" required>
+                <input type="email" placeholder="Enter a valid email" id="email-label" required>
+                <input type="number" placeholder="Enter a number between 18 through 99" id="number-label" size="4" min="18" max="99">
+                <select id="dropdown">
+                    <option value="black">Black</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                </select>
+                <label for="male">Male
+                    <input type="radio" name="gender" id="male" value="male"><br>
+                </label>
+                <label for="female">Female
+                    <input type="radio" name="gender" id="female" value="female"><br>
+                </label>
+                <input type="checkbox" name="hobby1" value="walking"> Walking<br>
+                <input type="checkbox" name="hobby2" value="swiming"> Swiming<br>
+                <input type="checkbox" name="hobby3" value="running"> Running<br>        
+                <textarea rows="4" cols="30" placeholder="additional comments"></textarea>     
+                <input type="submit" value="Submit">
+            </form>            
+        </div>
+    </body> 
+</html>
